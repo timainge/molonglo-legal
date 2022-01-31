@@ -1,0 +1,101 @@
+*, html {
+    font-family: 'Roboto', sans-serif;
+    --color-light: rgb(218, 218, 218);
+    --color-mid: rgb(164, 164, 164);
+    --color-dark: rgb(115,115,115);
+    --color-darker: rgb(64,64,64);
+    --color-black: #000;
+    --color-white: #fff;
+
+
+}
+
+// layout
+section {
+    min-height: 100vh;
+}
+
+img {
+    max-width:100%;
+}
+
+.image-panel {
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    height:100%;
+}
+
+// colours
+
+.bg-white {
+    background-color: var(--color-white) !important;
+    color: var(--color-mid);
+}
+
+.bg-light {
+    background-color: var(--color-light) !important;
+    color: var(--color-dark);
+}
+
+.bg-dark {
+    background-color: var(--color-dark) !important;
+    color: var(--color-light);
+}
+
+.text-light {
+    color: var(--color-light) !important;
+}
+
+.text-mid {
+    color: var(--color-mid) !important;
+}
+
+.text-dark {
+    color: var(--color-dark) !important;
+}
+
+.text-darker {
+    color: var(--color-darker) !important;
+}
+
+p {
+    font-size: 1.6rem;
+
+}
+
+//type
+
+// not currently used, reserved for titles etc, should match scale of logo
+h1 {
+
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 125%;
+}
+
+h3 {
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+
+
+
+// sections
+
+section#value {
+    padding: 4rem 0;
+
+    p {
+        padding: 0 0.5rem;
+    }
+}
+
+section#contact {
+    padding-top: 6rem;
+}
