@@ -1,5 +1,5 @@
 *, html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   --color-light: rgb(218, 218, 218);
   --color-mid: rgb(164, 164, 164);
   --color-dark: rgb(115,115,115);
@@ -23,19 +23,32 @@ img {
   height: 100%;
 }
 
+.pad-content {
+  padding: 4rem;
+}
+
 .bg-white {
   background-color: var(--color-white) !important;
   color: var(--color-mid);
+}
+.bg-white a {
+  color: var(--color-mid) !important;
 }
 
 .bg-light {
   background-color: var(--color-light) !important;
   color: var(--color-dark);
 }
+.bg-light a {
+  color: var(--color-dark) !important;
+}
 
 .bg-dark {
   background-color: var(--color-dark) !important;
   color: var(--color-light);
+}
+.bg-dark a {
+  color: var(--color-light) !important;
 }
 
 .text-light {
@@ -56,29 +69,103 @@ img {
 
 p {
   font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+p.caption {
+  margin-top: -0.5rem;
+  margin-bottom: 2.5rem;
 }
 
 h2 {
-  font-size: 3.5rem;
-  font-weight: 800;
+  font-size: 4rem;
+  font-weight: 700;
   line-height: 125%;
+  letter-spacing: -0.1rem;
+  margin: 1rem 0;
 }
 
 h3 {
-  font-size: 2.6rem;
-  font-weight: 400;
+  font-size: 3rem;
+  font-weight: 500;
   line-height: 125%;
+  margin: 1rem 0;
+}
+
+section#hero h1 {
+  margin-bottom: 3rem;
+}
+section#hero h2 {
+  margin-bottom: 5rem;
 }
 
 section#value {
-  padding: 4rem 0;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+section#value img.logo {
+  margin-bottom: 3rem;
 }
 section#value p {
   padding: 0 0.5rem;
 }
 
+section#team h2 {
+  margin-bottom: 4rem;
+}
+
+section#careers h2 {
+  margin: 4rem 0;
+}
+section#careers h3 {
+  margin: 3rem 0;
+}
+
 section#contact {
   padding-top: 6rem;
+}
+section#contact img.logo {
+  margin-top: 8rem;
+}
+
+@media (max-width: 991.98px) {
+  section#hero {
+    background-color: unset !important;
+    color: var(--color-dark);
+  }
+  section#hero h3 {
+    font-size: 2rem;
+  }
+  section#hero::after {
+    content: "";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background: url(/assets/images/cbr-one.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.4rem !important;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .pad-content {
+    padding: 1.2rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
