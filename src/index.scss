@@ -142,6 +142,15 @@ section#team {
     h2 {
         margin-bottom: 4rem;
     }
+
+    .logo-container {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        img {
+            height: auto;
+        }
+    }
 }
 
 section#careers {

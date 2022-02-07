@@ -117,6 +117,14 @@ section#value p {
 section#team h2 {
   margin-bottom: 4rem;
 }
+section#team .logo-container {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+section#team .logo-container img {
+  height: auto;
+}
 
 section#careers h2 {
   margin: 4rem 0;
