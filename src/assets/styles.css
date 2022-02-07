@@ -92,6 +92,10 @@ h3 {
   margin: 1rem 0;
 }
 
+a.li-link {
+  text-decoration: none;
+}
+
 section#hero h1 {
   margin-bottom: 3rem;
 }
@@ -146,6 +150,25 @@ section#contact img.logo {
     position: absolute;
     z-index: -1;
     background: url(/assets/images/cbr-one.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  section#careers {
+    background-color: unset !important;
+    color: var(--color-dark);
+    position: relative;
+  }
+  section#careers::after {
+    content: "dsfgdfsg";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background: url(/assets/images/cbr-two.jpg);
     background-position: center;
     background-size: cover;
   }
