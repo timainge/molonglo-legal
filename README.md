@@ -16,9 +16,10 @@ preview: https://serene-brahmagupta-b62a33.netlify.app
 - [x] check tx on logos
 - [x] check colour matching on greys
 - [x] mobile styles
-- [ ] copy changes from email
-- [ ] linked-in links/logos
+- [x] copy changes from email
+- [x] linked-in links/logos
 - [x] review responsive layout
+- [x] bg for careers
 
 
 
